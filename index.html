@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Hangman: Tiktok Sayings</title>
+    <link rel="stylesheet" href="hangman.css">
+  </head>
+  <body>
+    <main>
+      <h1> If you lose, the spirit will catch you in your dreams...</h1>
+      <div>
+        <img  id="hangmanImage" src="hangman0.png"/>
+      </div>
+      <div id="word"></div>
+      <br>
+      <div id="controls">
+        <input type="text" id="guessBox">
+        <button id="guessWordButton" class="button" onclick="guessWord( game )">Guess Word</button>
+        <button id="newGameButton" class="button" onclick="newGame();">New Game</button>
+        <br>
+        <br>
+      </div>
+      <br>
+      <div id="guesses"></div>
+    </main>   
+   <script src="hangman.js"></script>
+  </body>
+</html>
